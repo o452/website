@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 import logging
-from rgbprint import gradient_print, Color
 print("Scratch Coins Webserver v1.1")
 app = Flask(__name__)
 
