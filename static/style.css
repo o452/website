@@ -1,0 +1,527 @@
+body {
+    background-color: #131313;
+}
+
+.font {
+    font-family: 'Black Han Sans', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+
+.font-100 {
+    font-size: 100%;
+}
+
+.font-32px {
+    font-size: 3vw;
+}
+
+.font-16px {
+    font-size: 1.5vw;
+}
+
+.font-24px {
+    font-size: 2vw;
+}
+
+.font-10px {
+    font-size: 1vw;
+}
+
+
+.font-78px {
+    font-size: 6vw;
+}
+
+.font-very-big {
+    font-size: 18vw;
+}
+
+.font-42px {
+    font-size: 5vw;
+}
+
+.font-auto {
+    font-size: auto;
+}
+
+.white {
+    color: #F8F8F8;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-red {
+    background-color: #ff0000;
+}
+
+.purple {
+    color: #8C10D8;
+}
+
+
+.orange {
+    color:#F9A737
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color:#43FA15;
+}
+
+.yellow {
+    color:#FFE600;
+}
+
+
+.blob {
+    height: 75%;
+    width: 75%;
+}
+
+.wave {
+    height: auto;
+    width: 100%;
+}
+
+.wave-bottom {
+    height: auto;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.bg-blur {
+    background-color: rgb(217, 217, 217, 0.01);
+    backdrop-filter: blur(25px); 
+}
+
+.w-100 {
+    width: 100%;
+    left: 0;
+}
+
+.h-100 {
+    height: 100%;
+    top: 0;
+}
+.exemple-1 {
+    top: 800px;
+    position: absolute;
+    left: 10%;
+}
+
+.exemple-2 {
+    top: 1400px;
+    position: absolute;
+    right: 10%;
+}
+
+.exemple {
+    display: block;
+    height: auto;
+    width: 30%;
+    z-index: 10000;
+    position: absolute;
+
+}
+
+.login-bg {
+    background-color: rgb(217, 217, 217, 0.001);
+    backdrop-filter: blur(25px);
+    border: 1px solid #F8F8F8;
+    color: #F8F8F8;
+    border-radius: 32px;
+    transition: 0.35s;
+}
+
+.login-size {
+    width: 450px;
+    height: 450px;
+
+}
+
+.register-size {
+    width: 450px;
+    height: 500px;
+}
+
+.register-size-2 {
+    width: 700px;
+    height: 500px;
+}
+
+.token {
+    word-wrap: break-word;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-end {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.center-start {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+.center-appart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center-heigh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-appart-heigh {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.corner-16 {
+    border-radius: 16px;
+}
+.corner-32 {
+    border-radius: 32px;
+}
+.corner-64 {
+    border-radius: 64px;
+}
+
+.border-white {
+    border: 1px solid #F8F8F8;
+}
+
+.project-car {
+    height: 410px;
+    width: 410px;
+}
+
+.no-bg {
+    background-color: transparent;
+}
+
+.no-stroke {
+    border: none;
+}
+
+.login-text {
+    background-color: transparent;
+    border-radius: 1000px;
+    border: 5px solid #F8F8F8;
+    color: #F8F8F8;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    width: 280px;
+    font-size: 1.5vw;
+    height: 40px;
+    transition: 0.35s;
+}
+
+.login-button{
+    background-color: #F8F8F8;
+    border-radius: 1000px;
+    color: #131313;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    width: 250px;
+    font-size: 1.5vw;
+    height: 40px;
+}
+
+.right {
+    display: flex;
+    align-items: self-end;
+    justify-content: end;
+}
+
+.margin-6-5px {
+    margin: 6.5px
+}
+
+.margin-13px {
+    margin: 13px
+}
+
+.margin-40px {
+    margin: 40px
+}
+
+.margin-80px {
+    margin: 80px
+}
+
+.minus-margin {
+    margin: -100px;
+}
+
+.top-0 {
+    top:0;
+    position: absolute;
+}
+
+.left-0{
+    left:0;
+    position: absolute;
+}
+
+.right-0{
+    right:0;
+    position: absolute;
+}
+
+.bottom-0{
+    bottom:0;
+    position: absolute;
+}
+
+.h-cont {
+    height: 750px;
+}
+.h-t-cont {
+    height: 550px;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.z-top {
+    z-index: 100;
+}
+
+.z-top-top {
+    z-index: 500;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.w-1002 {
+    width: 100%;
+}
+
+.h-75{
+    height: 75%;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-35 {
+    height: 35%;
+}
+
+.h-containt {
+    height:auto;
+}
+
+.heigh-1 {
+    top:  1000px;
+    position: absolute;
+}
+
+.heigh-2 {
+    top:  1600px;
+    position: absolute;
+}
+
+.heigh-3 {
+    top: 1900px;
+    position: absolute;
+}
+
+.heigh-4 {
+    top: 2200px;
+    position: absolute;
+}
+
+.heigh-5 {
+    top: 2400px;
+    position: absolute;
+}
+
+.heigh-6 {
+    top: 2700px;
+    position: absolute;
+}
+
+.heigh-wave {
+    top:  400px;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.right-10 {
+    right: 10%;
+}
+
+.left-10 {
+    left: 10%;
+}
+
+.right-30 {
+    right: 30%;
+}
+
+.top-10 {
+    position: absolute;
+    top: 10%;
+}
+.top-15 {
+    position: absolute;
+    top: 15%;
+}
+.top-20 {
+    position: absolute;
+    top: 20%;
+}
+
+
+.bottom-10 {
+    bottom: 10%;
+}
+
+.bottom-10 {
+    bottom: 10%;
+}
+
+.bottom-5 {
+    bottom: 5%;
+}
+
+
+
+@media (max-width: 767px) {
+    .exemple {
+        display: none;
+    }
+    .w-50 {
+        width: 100%;
+    }
+
+    .t-right {
+        text-align: center;
+    }
+
+    .t-left {
+        text-align: center;
+    }
+
+    .minus-margin {
+        margin: -50px;
+    }
+
+    .h-cont {
+        height: 500px;
+    }
+
+    .h-t-cont {
+        height: 400px;
+    }
+
+    .heigh-1 {
+        top: 500px;
+    }
+
+    .heigh-2 {
+        top: 700px
+    }
+    .heigh-3 {
+        top: 900px
+    }
+
+    .heigh-4 {
+        top:1000px
+    }
+
+    .heigh-5 {
+        top:1050px
+    }
+
+    .heigh-6 {
+        top: 1125px;
+    }
+
+    .margin-13px {
+        margin: 7px;
+    }
+
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}
+
+
+@keyframes slideToLeft {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
+  }
+  
+  @keyframes slideFromRight {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }

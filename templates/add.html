@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="static/images/favicon.ico">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <title>Scratch Coins</title>
+</head> 
+<body>
+    <div class="w-100 center"> 
+        <a href="/"class="font font-32px top-0 white margin-13px z-top-top" ><span class="orange">Scratch</span> Coins</a> 
+    </div>
+    <div class="w-100 center-heigh top-0 orange h-100 no-overflow">
+        <img class="wave minus-margin" src="/static/images/wave-up.svg"></img>
+        <img class="wave minus-margin" src="/static/images/wave-down.svg"></img>
+    </div>
+    <div class="top-0 z-top center top-0 w-100 h-100">
+        <div class="login-bg login-size" id="box">
+            <div class="center-heigh margin-40px">
+                <div class="white font font-32px t-center"> Add </div>
+            </div>
+            <div class="h-100 w-100 center-heigh top-0">
+                <div class="h-35 center-appart-heigh">
+                    <div class="font font-auto red t-center h-35" id="Error">Error: The SC_Core sprite is not found in your project. Please refer to documentation to learn how to make your projects Scratch Coins compatible.</div>
+                    <div>
+                        <div class="white font">Project Id</div>
+                        <input type="number" id="project" class="login-text"></input>
+                    </div>
+                    <div>
+                        <div class="white font">Project Name</div>
+                        <input type="text" id="name" class="login-text"></input>
+                    </div>
+                    <button id="Enter" class="login-button bottom-0 margin-80px">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="w-100 z-top top-15 z-top center-start">
+      <a href= "/dashboard" class="font white font-16px z-top-top margin-13px">
+        Project Dashboard
+      </a>
+    </div>
+
+    <script src="/static/cookies.js"></script>
+    <script src="/static/add.js"></script>
+    <script src="/static/logo.js"></script>
+</body>
+</html> 
