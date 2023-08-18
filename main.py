@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-from replit import web
 import logging
 from rgbprint import gradient_print, Color
 
@@ -73,4 +72,4 @@ def create():
 def not_found(e):
   return render_template("404.html")
 
-web.run(app)
+app.run()
