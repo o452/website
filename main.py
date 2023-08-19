@@ -58,4 +58,4 @@ def create():
 def not_found(e):
   return render_template("404.html")
 
-app.run()
+app.run(debug=True,host='0.0.0.0',port=int(os.environ.get("PORT", 8080)))
